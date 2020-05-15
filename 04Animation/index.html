@@ -5,6 +5,7 @@
     <title>Hello, WebVR! • A-Frame</title>
     <meta name="viewport" content="width=device-width">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
    
   </head>
   <body>
@@ -36,18 +37,7 @@
         height="1" 
         depth="1" 
         material="src: #wood2"
-        shadow
-        animation__position="property: position; 
-                   to: 2 2 -3; 
-                   dur: 2000; 
-                   easing: linear; 
-                   loop: true;"
-
-        animation__width="property: width; 
-                   to: 3; 
-                   dur: 2000; 
-                   easing: linear; 
-                   loop: true;">  
+        shadow>  
       </a-box>
 
       <a-plane id="ground"
