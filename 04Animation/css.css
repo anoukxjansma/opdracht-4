@@ -1,0 +1,11 @@
+#myOtherBox{
+  animation-name: example;
+
+}
+
+@keyframes example {
+  0% 	{width: 1;}
+  25%	{width: 4;}
+  50%	{width: 3;}
+  100%	{width: 1;}
+}
